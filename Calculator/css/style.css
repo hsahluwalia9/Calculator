@@ -1,0 +1,86 @@
+body{
+  background-color: #9B9667;
+}
+
+h2{
+  color: white;
+}
+
+#calculator{
+  
+  width: 300px;
+  height: 390px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #143B2B;
+  margin-top: 30px;
+}
+
+#calculator h2{
+  margin-top: 10px;
+}
+
+#outputBox{
+  border: 1px solid black;
+  width: 250px;
+  height: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #41A67C;
+}
+
+#outputBox label {
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+#calculatorButtons{
+width: 250px;
+height: 250px;
+margin-right: auto;
+margin-left: auto;
+margin-top: 10px;
+}
+
+.btn{
+  margin: 4px;
+}
+
+.btn-primary {
+  width: 20%;
+  background-color: #41A67C;
+  border-color: #41A67C;
+}
+
+.btn-danger{
+  width: 32.5%;
+  background-color: #CB6E1C;
+  border-color: #CB6E1C;
+}
+
+#btnEqual{
+  width: 32.5%;
+}
+
+#0{
+  width: 32.5%;
+}
+
+@font-face{
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Orbitron-Light'), local('Orbitron-Regular'), url(https://fonts.gstatic.com/s/orbitron/v7/HmnHiRzvcnQr8CjBje6GQnYhjbSpvc47ee6xR_80Hnw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+.btn-danger, .btn-primary {
+font-family: Orbitron;
+}
+
+
+
+
+
+
+
